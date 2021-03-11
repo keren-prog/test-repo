@@ -11,7 +11,9 @@ import MyNinethComponent from './MyNinethComponent';
 import MyTenthComponent from './MyTenthComponent';
 import MasterComponent from './MasterComponent';
 import ParentComponent from './ParentComponent';
-import DashboardComponent from './Trial1/DashboardComponent'
+import DashboardComponent from './Trial1/DashboardComponent';
+import Counter from './state/Counter';
+import Login from './state/Login';
 
 
 
@@ -35,12 +37,15 @@ function App() {
       <MyTenthComponent/>  */}
 
       {/* <ParentComponent name="kojo" gender="male" age="23" email="kojo@gmail.com"/> */}
-      <DashboardComponent 
+      {/* <DashboardComponent 
       dashboardfirstname="Keren" 
       dashboardlastname="Animwaah" 
       dashboardemail="Kanimwaah@gmail.com"
        dashboarddateofbirth="05/08/1990" 
-       dashboardmobile="0245406296" />
+       dashboardmobile="0245406296" /> */}
+
+       <Counter/>
+       <Login/>
    </div>
    
     );
